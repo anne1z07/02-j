@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Titel</h1>
+    </header>
+    <main>
+      <section class="billede">
+        <div class="div1">
+          <h2>Hej</h2>
+          <img src="https://placeimg.com/640/480/nature" alt="Billede" />
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              ex velit dignissimos architecto maxime recusandae voluptate et
+              eius itaque nostrum voluptatem sed incidunt sit, dolores iste!
+              Debitis labore facere magni.
+            </p>
+          </article>
+        </div>
+
+        <div class="div2">
+          <h2>Hej</h2>
+          <img src="https://placeimg.com/640/480/nature" alt="Billede" />
+          <article>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+              nobis vel! Exercitationem fugiat voluptatem doloremque quae
+              dolores, repudiandae voluptates fugit nulla temporibus magni atque
+              qui nihil ab, esse enim vero.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Hej det er min footer</p>
+    </footer>
+
+    <script>
+      //   document.querySelector("header");
+      //   console.log(`Header`);
+
+      //   document.querySelector(".billede");
+      //   console.log(`Section`);
+
+      //   document.querySelector(".div1");
+      //   console.log(`Div1`);
+
+      //   document.querySelector("h2");
+      //   console.log(`h2`);
+
+      //   document.querySelector("img");
+      //   console.log(`Image`);
+
+      //   document.querySelector(".div2");
+      //   console.log(`Div2`);
+
+      //   document.querySelector("article");
+      //   console.log(`Article`);
+
+      //   document.querySelector("footer");
+      //   console.log(`Footer`);
+
+      const div1 = document.querySelector("div1:nth-child(1)");
+      console.log(`div1`);
+
+      const div2 = document.querySelector("div2:nth-child(2)");
+      console.log(`div2`);
+    </script>
+
+    <style>
+      .div1:nth-child(1) {
+        color: red;
+      }
+
+      .div2:nth-child(2) {
+        color: blue;
+      }
+    </style>
+  </body>
+</html>
